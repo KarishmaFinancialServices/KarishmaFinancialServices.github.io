@@ -27,6 +27,11 @@ defaults:
       layout: service
       bodyClass: page-services-single
   - scope:
+      type: debt
+    values:
+      layout: debt
+      bodyClass: page-services-single
+  - scope:
       path: 'images'
     values:
       image: true
