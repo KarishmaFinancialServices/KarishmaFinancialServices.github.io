@@ -30,7 +30,7 @@ defaults:
       type: debt
     values:
       layout: debt
-      bodyClass: page-services-single
+      bodyClass: page-debt-single
   - scope:
       path: 'images'
     values:
