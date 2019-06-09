@@ -21,9 +21,9 @@ bodyClass: page-debt-list
   <div class="row">
     {% for debt in site.debt %}
     <div class="col-12 col-md-4 mb-1">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
+      <div class="debt debt-summary">
+        <div class="debt-content">
+          <h2 class="dbet-title">
             <a href="{{site.baseurl}}{{ debt.url }}">{{ debt.title }}</a>
           </h2>
           {{ debt.content | markdownify | strip_html | truncate: 100 }}

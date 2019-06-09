@@ -67,7 +67,6 @@
 
 // Pages
 @import 'pages/home';
-@import 'pages/about';
 @import 'pages/team/team-list';
 @import 'pages/team/team-summary';
 @import 'pages/team/page-team-list';
@@ -78,15 +77,6 @@
 @import 'pages/services/page-services-single';
 @import 'pages/services/service-single';
 @import 'pages/services/service-summary';
-@import 'pages/debts/page-debt-list';
-@import 'pages/debts/page-debt-single';
-@import 'pages/debts/debt-single';
-@import 'pages/debts/debt-summary';
-@import 'pages/green-energy/page-green-energy-list';
-@import 'pages/green-energy/green-energy-single';
-@import 'pages/green-energy/green-energy-summary';
-
-
 
 // Display breakpoints for DEV
 // body:after {

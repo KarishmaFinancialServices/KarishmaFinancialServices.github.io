@@ -1,7 +1,7 @@
 ---
 title: Green Energy Projects
 layout: default
-bodyClass: page-model-list
+bodyClass: page-green-energy-list
 ---
 
 <div class="intro">
@@ -18,11 +18,11 @@ bodyClass: page-model-list
   <div class="row">
     {% for model in site.models %}
     <div class="col-12 col-md-6 mb-2 ">
-      <div class="testimonials testimonials-summary">
+      <div class="green-energy testimonials-summary">
         <div class="testimonials-meta">
-          <h2 class="testimonials-title">{{ model.title }}</h2>
+          <h2 class="green-energy-title">{{ model.title }}</h2>
         </div>
-        <div class="testimonials-content">{{ model.content }}</div>
+        <div class="green-energy-content">{{ model.content }}</div>
       </div>
     </div>
     {% endfor %}

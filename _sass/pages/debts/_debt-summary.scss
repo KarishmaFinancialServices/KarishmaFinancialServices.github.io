@@ -1,0 +1,22 @@
+.debt-summary {
+  display: flex;
+  align-items: flex-start;
+  .service-image {
+    flex: 0 0 100px;
+    margin-right: 10px;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .debt-content {
+    flex: 1;
+    .service-title {
+      font-family: $font-family-heading;
+      font-size: 1.6rem;
+    }
+    p {
+      color: $secondary;
+    }
+  }
+}
