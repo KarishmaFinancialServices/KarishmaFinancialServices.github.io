@@ -1,5 +1,5 @@
 ---
-title: 'Business Loan'
+title: 'Business Loans'
 image: '/services/noun_591323.png'
 ---
 <h2><ul>

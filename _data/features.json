@@ -2,15 +2,19 @@
   {
     "title": "Project Loan",
     "description": "Through External commercial borrowings In Foreign Currency and Indian Rupees",
-    "image": "images/features/noun_branding_1885335.svg"
+    "image": "images/features/noun_branding_1885335.svg", 
+    "link":"project-loan"
   },
   {
     "title": "Business Loan",
     "description": "Secured and Unsecured Business loans Fund based & Non Fund Based Facilities",
-    "image": "images/features/noun_The Process_1885341.svg"
+    "image": "images/features/noun_The Process_1885341.svg",
+    "link":"business-loan"
   },
   {
     "title": "Loan for Builders",
-    "image": "images/features/noun_3d modeling_1885342.svg"
+    "description": "Loan for Redevelopment Construction loan ... ",  
+    "image": "images/features/noun_3d modeling_1885342.svg",
+    "link":"builders-loan"
   }
 ]

@@ -1,19 +1,10 @@
 .page-about {
   background-image: url('../images/undraw_in_thought.svg');
   background-repeat: no-repeat;
-  background-size: 115%;
-  background-position: 49px -40px;
-  @include media-breakpoint-up(sm) {
-    background-size: 90%;
-    background-position: 159px -40px;
-  }
+  background-size: 60%;
+  
   @include media-breakpoint-up(md) {
-    background-size: 70%;
-    background-position: 100% -50px;
-  }
-  @include media-breakpoint-up(lg) {
-    background-size: 60%;
-    background-position: 100% -70px;
+    background-position: 90%;
   }
   .call {
     position: relative;
@@ -62,11 +53,11 @@
       position: absolute;
       bottom: -9px;
       right: 0;
-      width: 100px;
-      height: 100px;
+      width: 80px;
+      height: 80px;
       @include media-breakpoint-up(sm) {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
       }
     } // .call-box-bottom {
     //   padding: 10px 20px;
