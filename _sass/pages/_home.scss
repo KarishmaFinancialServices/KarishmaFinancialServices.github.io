@@ -1,19 +1,21 @@
 .page-home {
-  background-image: url('../images/undraw_taking_notes_tjaf.svg');
+  background-image: url('../images/man-wearing-white-top-in-front-of-woman-wearing-blue-long.jpg');
   background-repeat: no-repeat;
-  background-size: 115%;
-  background-position: 49px -40px;
+  background-blend-mode:screen;
+  background-color:lightgray;
+  background-size: 120%;
+  //background-position: 49px -40px;
   @include media-breakpoint-up(sm) {
-    background-size: 90%;
-    background-position: 159px -40px;
+    //background-size: 90%;
+    //background-position: 159px -40px;
   }
   @include media-breakpoint-up(md) {
-    background-size: 70%;
-    background-position: 100% -50px;
+    //background-size: 70%;
+    //background-position: 100% -50px;
   }
   @include media-breakpoint-up(lg) {
-    background-size: 60%;
-    background-position: 100% -70px;
+    //background-size: 60%;
+    //background-position: 100% -70px;
   }
   .call {
     position: relative;
@@ -59,7 +61,7 @@
     svg {
       //       fill: lighten($primary, 30%);
       fill: lighten($secondary, 40%);
-      position: absolute;
+      position: relative;
       bottom: -9px;
       right: 0;
       width: 100px;

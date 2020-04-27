@@ -1,15 +1,22 @@
 .page-debt-list {
-  background-image: url('../images/undraw_discount_d4bd.svg');
+  background-image: url('../images/black-calculator-near-ballpoint-pen-on-white-printed-paper.jpg');
   background-repeat: no-repeat;
-  background-size: 45%;
-  background-position: 49px; 
+  background-size: 100%;
+  //background-position: 49px; 
+  background-position: 0% 40%;
+  background-color: lightgray;
+  background-blend-mode: screen;
+
   @include media-breakpoint-up(sm) {
-    background-position: 159px;
+    //background-position: 159px;
   }
   @include media-breakpoint-up(md) {
-    background-position: 199px;
+    //background-position: 199px;
   }
   @include media-breakpoint-up(lg) {
-    background-position: 100% 2%;
+    //background-position: 100% 12%;
+  }
+  .debt {
+  padding-top: 70px;
   }
 }
